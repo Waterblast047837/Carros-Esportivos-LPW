@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+html {
+    margin-bottom: 5%;
+    font-family: 'Montserrat';
+    z-index: 1;
+}
+
+body {
+    background-color: darkgrey;
+    z-index: 1;
+}
+
+.caixota {
+    width: 88%;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-right: 10%;
+    margin-left: 0%;
+    box-shadow: 0px 10px 10px 0px rgb(59, 59, 59);
+    z-index: 1;
+}
+
+#carro {
+    width: 450px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0.4;
+    float: left;
+    margin-right: 2%;
+}
+
+#carro img {
+    width: 450px;
+    display: block;
+    float: left;
+    box-shadow: 0px 15px 15px 0px rgb(63, 63, 63);
+}
+
+#carro:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#carro h3 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 5px;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sidebar {
+    z-index: 2;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 0;
+    float: right;
+    background-color: #efefef;
+    position: relative;
+    position: sticky;
+    top: 0;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 15px;
+    font-size: small;
+    display: flex;
+    font-family: Montserrat, sans-serif;
+}
+
+#sidebar_items {
+    padding-left: 2.5vh;
+    padding-right: 2.5vh;
+}
+
+#sidebar_items li {
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    border-radius: 20px;
+}
+
+#sidebar_items li:last-child {
+    position: absolute;
+    bottom: 2vh;
+    color: #efefef;
+}
+
+#sidebar_items li:last-child::selection {
+    color: black;
+}
+
+#sidebar_items li:not(.active):hover {
+    background-color: gray;
+}
+
+header {
+    display: flex;
+    justify-content: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 1px;
+}
+
+#legal {
+    width: 100%;
+    box-shadow: 0px 7px 6px 0px rgb(59, 59, 59);
+}
+
+header li:nth-child(7) {
+    background-color: red;
+    padding: 5px;
+    border-radius: 2px;
+    color: white;
+}
+
+#carrao {
+    position: relative;
+}
+
+#carrao h2 {
+    font-family: 'Michroma', sans-serif;
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    font-size: 30px;
+    text-shadow: 10px 10px 7px rgb(34, 34, 34);
+}
+
+#carrao a {
+    background-color: orangered;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 2px;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    left: 15%;
+    top: 55%;
+}
+
+#carrao a:hover {
+    animation: butao 0.2s ease-in-out 0s forwards;
+}
+
+@keyframes butao {
+    from {transform: translate(0px, 0px); background-color: orangered;}
+    to   {transform: translate(-5px, -5px); background-color: orange;}
+}
+
+#noticias1 {
+    width: 42%;
+    margin-right: 12%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-left: auto;
+}
+
+#noticias {
+    width: 42%;
+    margin-right: 12%;
+    height: fit-content;
+    margin-left: auto;
+    box-shadow: 0px 15px 15px 4px rgb(59, 59, 59);
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    border: solid 1px black;
+    position: relative;
+    transition: left .2s ease-in-out;
+    transition: top .2s ease-in-out;
+}
+
+#noticias:hover {
+    left: -5px;
+    top: -5px;
+}
+
+#noticias p {
+    padding: 10px;
+}
+
+#noticias img {
+    width: 50%;
+    display: block;
+    float: right;
+    margin-left: auto;
+}
+
+#almafi {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    width: 99%;
+    position: absolute;
+    margin-top: auto;
+    margin-bottom: 5%;
+    background-color: rgb(68, 68, 68);
+    min-height: 20vh;
+    color:#efefef;
+    border-top: 3px solid black;
+    flex-direction: column;
+}
+
+footer h1 {
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.inputs {
+    padding: 10px;
+    background-color: orangered;
+
+}
+
+footer p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+#open_btn {
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+

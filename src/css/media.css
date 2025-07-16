@@ -1,0 +1,10 @@
+@media all and(max-width:1102px) {
+    #carro,
+    #legal {
+        width: 300px;
+    }
+
+    #sidebar {
+        width: 10px;
+    }
+}
