@@ -18,6 +18,7 @@ btn.addEventListener("click", function() {
     caixinha.classList.toggle('caixinha_active');
     if (caixinha.classList.contains('caixinha_active')) {
         caixinha.appendChild(btn);
+        test.classList.remove('test-active');
     } else {
         koeg.id = '';
         revu.id = '';
@@ -244,7 +245,9 @@ const test = document.querySelector('.test');
 
 testdrive.addEventListener('click', () => {
     test.classList.add('test-active');
-    aparecer();
+    caixinha.classList.remove('caixinha_active');
+    sidebar.classList.remove('sidebar_active');
+    modelos.classList.remove('modelos-active');
 });
 
 const links = document.querySelectorAll('.links');
