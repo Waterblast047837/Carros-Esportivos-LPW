@@ -709,3 +709,12 @@ footer p {
 .aston-p::selection {
     color: darkgreen;
 }
+
+#katiau {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+#katiau:hover {
+    opacity: 1;
+}
