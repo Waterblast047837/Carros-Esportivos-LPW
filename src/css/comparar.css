@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+* {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    z-index: 1;
+    font-family: 'Montserrat', 'Michroma', sans-serif;
+}
+
+html {
+    margin-bottom: 5%;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+body {
+    background-color: white;
+    z-index: 1;
+}
+
+header h1{
+    padding-top: 15px;
+    background-image: linear-gradient(to left, gold, goldenrod);
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 1px;
+    background-color: rgb(24, 24, 24);
+    width: 100%;
+    height: 70px;
+}
+
+footer {
+    display: flex;
+    min-width: 100%;
+    position: absolute;
+    margin-top: auto;
+    margin-bottom: 5%;
+    background-color: rgb(24, 24, 24);
+    min-height: 20vh;
+    color:#efefef;
+    border-top: solid 3px rgba(24, 23, 22, 0.719);
+    flex-direction: column;
+    margin-top: 2vh;
+}
+
+footer h1 {
+    padding-top: 5px;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.inputs {
+    padding: 10px;
+    background-color: orangered;
+}
+
+footer p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.inicio {
+    position: relative;
+    overflow: hidden;
+}
+
+.conteudo {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, 110vh);
+    border-bottom: 1px solid whitesmoke;
+    background-color: rgb(24, 24, 24);
+}
+
+.bomdia {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 2vh;
+}
+
+.koegnisegg {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    position: relative;
+    border-right: 1px solid white;
+}
+
+.koegnisegg h1 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 2vh;
+}
+
+.koegnisegg p {
+    font-weight: 400;
+    font-family: 'Michroma', sans-serif;
+    text-align: justify;
+    padding: 0px 10px;
+    color: white;
+}
+
+.texta {
+    font-weight: 400;
+    font-family: 'Michroma', sans-serif;
+    text-align: justify;
+    padding: 0px 10px;
+    color: rgb(0, 0, 0);
+}
+
+.bugatti {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.bugatti h1 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 2vh;
+    color: white;
+}
+
+.bugatti p {
+    font-weight: 400;
+    font-family: 'Michroma', sans-serif;
+    text-align: justify;
+    padding: 0px 10px;
+    color: white;
+}
+
+.textos img {
+    float: left;
+    width: 30vw;
+    padding: 20px;
+    padding-top: 0;
+}
+
+.textos {
+    background-color: white;
+    height: 145vh;
+}
+
+.textos h1 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 2vh;
+    color: black;
+}
+
+.textos p {
+    font-weight: 400;
+    font-family: 'Michroma', sans-serif;
+    text-align: justify;
+    padding: 0px 10px;
+    color: black;
+}
+
+table {
+    color: white;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 5%;
+    font-family: 'Montserrat', Arial;
+    background-color: rgb(24, 24, 24);
+}
+
+table td {
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    right: 3vh;
+    font-family: 'Montserrat', 'Times New Roman';
+}
+
+.rival {
+    width: 100%;
+}

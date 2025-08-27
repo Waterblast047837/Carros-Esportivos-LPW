@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
+    <title>GridZero</title>
+    <link rel="icon" href="imgs/Logotipo_LPW.ico">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/media2.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--<div id="intro">
+        <video id="introVideo" src="/video/CarIntro.mp4" autoplay muted></video>
+        <button id="skipIntroBtn">Pular introdução</button>
+    </div>-->
+<body>
+    <div class="modelos">
+        <img src="/imgs/noticias/F1.jpg" alt="" id="f1" style="height: 100vh; z-index: 2; width:80%; margin-left: -40%; display: inline-block;">
+        <ul class="options">
+            <li><button class="revu">Lamborghini Revuelta</button></li>
+            <p class="revu-p">O Lamborghini Revuelto é um superesportivo híbrido que inaugura uma nova era para a marca
+                italiana, combinando um motor V12 de 6.5 litros com três motores elétricos para entregar
+                impressionantes 1.015 cavalos de potência, acelerando de 0 a 100 km/h em apenas 2,5 segundos 
+                e atingindo mais de 350 km/h. Com tecnologia HPEV (High Performance Electrified Vehicle), o 
+                Revuelto traz uma transmissão de dupla embreagem transversal e sistema de vetorização de torque, 
+                garantindo desempenho e controle excepcionais. Seu design agressivo e aerodinâmico, com chassi 
+                monocoque em fibra de carbono e linhas inspiradas na aviação, é complementado por um interior 
+                futurista e centrado no motorista, que mistura luxo, esportividade e tecnologia em um cockpit 
+                digital com telas para condutor e passageiro. É mais que um carro — é uma declaração ousada 
+                de inovação e velocidade.
+                <br>
+                <br>
+                <a href="https://www.lamborghini.com/en-en/models/revuelto#" class="link">Descubra Mais</a></p>
+            <li><button class="koeg">Koegnisegg Jesko Absolut</button></li>
+            <p class="koeg-p">O Koenigsegg Jesko Absolut é um hipercarro sueco projetado para ser o veículo de produção
+                mais rápido do mundo, combinando engenharia extrema com aerodinâmica refinada. Equipado com um motor V8
+                biturbo de 5.0 litros que entrega até 1.600 cv com combustível E85, o Jesko Absolut alcança velocidades 
+                superiores a 480 km/h, graças à sua transmissão de nove marchas chamada Light Speed Transmission e ao
+                seu baixo coeficiente aerodinâmico de apenas 0,278. Recentemente, ele quebrou o recorde mundial de 
+                aceleração e frenagem de 0 a 400 km/h e volta a 0 em apenas 25,21 segundos, superando rivais elétricos
+                como o Rimac Nevera R2. Com apenas 1390 kg, tração traseira e um design que lembra um caça terrestre, o
+                Jesko Absolut representa o ápice da inovação automotiva da Koenigsegg.
+                <br>
+                <br>
+                <a href="" style="background-color: rgb(136, 136, 136);" class="link">Descubra Mais</a></p>
+            <li><button class="aston">Aston Martin Vulcan</button></li>
+            <p class="aston-p">O Aston Martin Vulcan é uma fera britânica criada exclusivamente para as pistas, 
+                combinando brutalidade mecânica com elegância artesanal. Equipado com um motor V12 de 7,0 litros 
+                naturalmente aspirado, ele entrega impressionantes 820 cv e 780 Nm de torque, canalizados para as 
+                rodas traseiras por uma transmissão sequencial de seis marchas. Com apenas 24 unidades produzidas, 
+                o Vulcan é uma raridade que exala exclusividade e desempenho extremo. Seu chassi de alumínio e
+                 carroceria em fibra de carbono garantem um peso seco de cerca de 1.350 kg, enquanto sua aerodinâmica 
+                 agressiva — com asas ajustáveis e difusores dignos de carros GT3 — gera mais de 1.300 kg de downforce 
+                 em velocidade máxima. O resultado? Um carro que acelera de 0 a 100 km/h em apenas 2,9 segundos e atinge 
+                 até 335 km/h, tudo isso com um rugido que parece saído de um apocalipse automobilístico.
+                <br>
+                <br>
+            <a href="https://www.astonmartin.com/en/our-world/news/2018/7/26/vulcan" class="link" style="background-color: green;">Descubra Mais</a></p>
+    </div>
+    <nav class="test">
+        <h1>Selecione a marca de seu interesse</h1>
+        <a href="https://www.maserati.com/br/pt/shopping-tools/test-drive" class="links">Maserati</a>
+        <a href="https://audicentercuritiba.com.br/test-drive" class="links">Audi</a>
+        <a href="https://www.ferrari.com/en-US/auto/ferrari-roma-test-drive" class="links">Ferrari</a>
+        <a href="https://www.landrover.com.br/shopping-tools/book-a-test-drive.html" class="links">Land Rover</a>
+        <a href="https://testdrive.bmw.com.br/selecionar-veiculo" class="links">BMW</a>
+        <button class="close"><i class="fa-solid fa-x"></i></button>
+    </nav>
+    <nav class="sidebar">
+        <div class="caixinha"></div>
+        </div>
+        <ul class="sidebar-items">
+            <a href="/html/index.html"><li><i class="fa-solid fa-house"></i> Menu</li></a>
+            <button id="modelosBtn"><li><i class="fa-solid fa-car"></i> Modelos</li></button>
+            <a href="/html/creditos.html"><li><i class="fa-solid fa-user-tie"></i> Créditos</li></a>
+        </ul>
+        </div>
+    </nav>
+        <header>
+            <h1>GridZero</h1>
+            <button id="toggleSidebarBtn">
+                <div class="menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </button>
+        </header>
+        <section id="carrao">
+            <button id="prevBtn"><i class="fa-solid fa-arrow-right"></i></button>
+            <button id="nextBtn"><i class="fa-solid fa-arrow-right"></i></button>
+            <img src="/imgs/carrao.png" alt="Carro de Luxo(Wiliam Torettum)" id="legal">
+            <h2>SINTA A VELOCIDADE
+                <br>VIVA A EMOÇÃO</h2>
+            <button id="testdrive">Agende um Teste Drive</button>
+        </section>
+        <h1 id="tri">Visualização 3D de carros</h1>
+        <div class="mod-container" style="width: 100%;">
+            <model-viewer class="mod" src="/modelos/ferrari_fxx_k_2015__www.vecarz.com.glb" style="background-color: darkgrey; width: 100%; height: 75vh;"
+            auto-rotate shadow-intensity="1" camera-orbit="45deg 75deg 1.m" min-camera-orbit="auto 75deg 1.m"
+            max-camera-orbit="auto 75deg 1.m" min-field-of-view="20deg" max-field-of-view="20deg" camera-controls
+            alt="carro"></model-viewer>
+            <button id="prevMod"><i class="fa-solid fa-chevron-left"></i></button>
+            <button id="nextMod"><i class="fa-solid fa-chevron-right"></i></button>
+            <h1>Ferrari Fxx K</h1>
+            <h1>Lamborghini Veneno</h1>
+            <h1>Ferrari Laferrari</h1>
+            <h1>Lamborghini Sian</h1>
+        </div>
+        <h1 style="font-family: inherit; font-size: 50px; font-weight: lighter; width: 100vw; text-align: center; padding-top: 5vh; ">Últimas Notícias</h1>
+            <section class="caixota">
+                <article id="vs">
+                    <div class="cortina2"></div>
+                    <div class="cortina" style="height: 100%; margin-left: -17%;">
+                        <a href="/html/comparar.html" style="width: 100%; height: 100%; z-index: 5;">
+                        <h1 class='corth1'>Veja essa comparação entre dois gigantes automobilísticos</h1>
+                        <img src="/imgs/JeskoVSChiron.png" alt="" style="height: 100%;">
+                        </a>
+                    </div>
+                </article>
+                <article id="enzo">
+                    <div class="cortina2"></div>
+                    <div class="cortina" style="width: 100%;">
+                        <a href="https://autoesporte.globo.com/carros/curiosidades-sobre-carros/noticia/2025/08/carro-eletrico-mais-rapido-byd-u9-recorde.ghtml" style="width: 100%; height: 100%; z-index: 5;">
+                        <h1 class='corth1'>Novo carro mais rápido entre os elétricos surpreende.</h1>
+                        <img src="/imgs/noticias/rapido.webp" alt="" style="object-fit: cover; width: 100%; height: 100%; margin-top: -40%;">
+                        </a>
+                    </div>
+                </article>
+                <article id="lambo">
+                    <div class="cortina2"></div>
+                    <div class="cortina">
+                        <a href="https://autoesporte.globo.com/carros/testes-de-carros/review/2025/08/teste-lamborghini-temerario-troca-v10-por-v8-hibrido-para-seguir-existindo.ghtml" style="width: 100%; height: 100%; z-index: 5;">
+                        <h1 class="corth1">Lamborghini Temerario troca motor V10 por V8 híbrido para seguir existindo</h1>
+                        <img src="/imgs/noticias/temerario.jpg" alt="" style="height: 100%; margin-top: -50%; margin-left: -150%;">
+                        </a>
+                    </div>
+                </article>
+                <article id="bmw">
+                    <div class="cortina2"></div>
+                    <div class="cortina" style="height: 100%;">
+                        <a href="https://autoesporte.globo.com/setor-automotivo/mercado-automotivo/noticia/2025/08/ferrari-daytona-sp3-vendida-r-140-milhoes-mais-cara-historia.ghtml" style="width: 100%; height: 100%; z-index: 5;">
+                        <h1 class="corth1">Ferrari Daytona SP3 vendida por R$ 140 milhões é a mais cara da história</h1>
+                        <img src="/imgs/noticias/daytona.jpg" style="height: 100%; margin-left: -20%;">
+                        </a>
+                    </div>
+                </article>
+                <article id="laren">
+                    <div class="cortina2"></div>
+                    <div class="cortina" style="height: 100%;">
+                        <a href="https://autoesporte.globo.com/carros/lancamentos-de-carros/noticia/2025/08/lamborghini-mais-potente-1080-cv-so-29-unidades.ghtml" style="width: 100%; height: 100%; z-index: 5;">
+                        <h1 class="corth1">Lamborghini mais potente de todos os tempos tem 1.080 cv e só 29 unidades</h1>
+                        <img src="/imgs/noticias/fenomeno.jpg" style="height: 100%; margin-left: -10%;">
+                        </a>
+                    </div>
+                </article>
+                <article id="zenvo">
+                    <div class="cortina2"></div>
+                    <div class="cortina">
+                        <a href="https://autoesporte.globo.com/carros/segredos-e-flagras/noticia/2025/08/byd-registra-supercarro-eletrico-brasil.ghtml" style="width: 100%; height: 100%; z-index: 5;">
+                        <h1 class="corth1">BYD registra no Brasil supercarro elétrico que dispensa teto e para-brisa</h1>
+                        <img src="/imgs/noticias/byd.jpg" alt="" style="height: 100%; margin-left: -20%;" class="cortina">
+                        </a>
+                    </div>
+                </article>
+            </section>
+            
+        <footer>
+            <h1><strong>GridZero</strong></h1>
+            <p>Faça o seu cadastro agora e receba notícias sobre o mundo da <strong>VELOCIDADE</strong>.</p>
+            <div class="inputs">
+                <form action="">
+                    <label for="nome"> Nome: 
+                        <input type="text" placeholder="Digite...">
+                    </label>
+                    <label for="email">Email:
+                        <input type="email" placeholder="exemplo@gmail.com">
+                    </label>
+                    <label for="notificações"> Receber notificações?
+                        <input type="checkbox" value="Não" >
+                    </label>
+                    <button name="cadastro" type="reset" id="open_btn" class="reset">Enviar</button>
+                </form>
+                <img src="/imgs/comparar/katiau.jpg" id="katiau" style="width: 10%;" alt="">
+            </div>
+        </footer>
+
+        <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js">
+        </script>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+        }
+      }
+    </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+        AOS.init();
+        </script>
+        <script src="/src/javascript/script.js"></script>
+</body>
+</html>

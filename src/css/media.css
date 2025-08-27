@@ -1,0 +1,132 @@
+
+
+@media (min-width: 1053px) and (max-width: 1103px) {
+    .conteudo {
+        height: 130vh;
+    }
+
+    .textos p {
+        font-size: 13px;
+    }
+
+    table {
+        margin-top: -15vh;
+    }
+}
+
+@media (max-width: 1052px) {
+    .conteudo {
+        grid-template-columns: 100%;
+        grid-template-rows: 50vh 80vh;
+    }
+
+    .koegnisegg {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .bugatti {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    table {
+        margin-top: 200px;
+    }
+}
+
+@media (max-width: 966px) {
+    .conteudo {
+        grid-template-rows: 50vh 90vh;
+    }
+}
+
+@media (max-width: 873px) {
+    table {
+        margin-top: 300px;
+    }
+
+    .conteudo {
+        grid-template-rows: 60vh 100vh;
+    }
+}
+
+@media (max-width: 748px) {
+    table {
+        margin-top: 350px;
+    }
+
+    .conteudo {
+        grid-template-rows: 60vh 110vh;
+    }
+}
+
+@media (max-width: 665px) {
+    table {
+        margin-top: 425px;
+    }
+
+    .conteudo {
+        grid-template-rows: 70vh 120vh;
+    }
+}
+
+@media (max-width: 596px){
+    table {
+        margin-top: 500px;
+    }
+
+    .conteudo {
+        grid-template-rows: 75vh 130vh;
+    }
+}
+
+@media (max-width: 571px) {
+    table {
+        margin-top: 600px;
+    }
+}
+
+@media (max-width: 537px) {
+    .conteudo {
+        grid-template-rows: 80vh 140vh;
+    }
+
+    table {
+        margin-top: 650px;
+    }
+}
+
+@media (max-width: 510px) {
+    table {
+        margin-top: 600px;
+    }
+
+    .koegnisegg h1 {
+        font-size: 20px;
+    }
+
+    .bugatti h1 {
+        font-size: 20px;
+    }
+
+    .bugatti p, .koegnisegg p {
+        font-size: 15px;
+    }
+
+    .textos p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 456px) {
+    table {
+        margin-top: 700px;
+    }
+}
+
+@media (max-width: 440px) {
+    table {
+        margin-top: 750px;
+    }
+}
