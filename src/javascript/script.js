@@ -97,34 +97,6 @@ nextBtn.addEventListener("click", function() {
 mostrarImagem(indiceAtual);
 
 
-//video de introdução
-window.onload = function() {
-    const intro = document.getElementById('intro');
-    const video = document.getElementById('introVideo');
-    const skipBtn = document.getElementById('skipIntroBtn');
-    const introDuration = 10000;
-    const fadeDuration = 2000;
-
-    document.documentElement.classList.add('no-scroll');
-
-    function hideIntro() {
-        intro.classList.add('fade-out');
-        document.documentElement.classList.remove('no-scroll');
-        setTimeout(() => {
-            intro.style.display = 'none';
-            document.documentElement.classList.remove('no-scroll');
-        }, fadeDuration);
-    }
-
-    video.onended = function() {
-        hideIntro();
-    };
-
-    setTimeout(hideIntro, introDuration);
-
-    skipBtn.addEventListener('click', hideIntro);
-};
-
 //aparição
 const h1 = document.querySelectorAll('.corth1');
 const cortina = document.querySelectorAll('.cortina');
