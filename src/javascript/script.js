@@ -248,6 +248,7 @@ testdrive.addEventListener('click', () => {
     caixinha.classList.remove('caixinha_active');
     sidebar.classList.remove('sidebar_active');
     modelos.classList.remove('modelos-active');
+    header.appendChild(toggleSidebarBtn);
 });
 
 const links = document.querySelectorAll('.links');
